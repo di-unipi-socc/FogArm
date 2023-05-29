@@ -1,0 +1,17 @@
+version: "3"
+
+services:  
+  
+  nodered:
+     image: 127.0.0.1:5000/dashboard
+     build: .
+     restart: always
+     environment:
+       - TZ=Europe/Rome
+     ports:
+       - "1880:1880"
+     volumes:
+      - node-red-data:/data
+  
+volumes:
+  node-red-data:

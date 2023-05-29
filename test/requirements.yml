@@ -1,0 +1,7 @@
+services:
+  redis:
+    hardware: 10
+    links:
+      web:
+        bandwidth: 20
+        latency: 10

@@ -1,0 +1,5 @@
+pyyaml
+docker
+timeloop
+psutil
+#pyswip==0.2.11 #pip install git+https://github.com/yuce/pyswip@master#egg=pyswip
