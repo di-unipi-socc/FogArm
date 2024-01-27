@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  web:
+    image: 90.147.166.189:443/stackdemo
+    build: .
+    ports:
+      - "8000:8000"
